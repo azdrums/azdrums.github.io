@@ -41,7 +41,7 @@ organization:
   url: "https://azdrums.github.io"
 
 repository:
-  name: "gh-pages"
+  name: "master"
   url: "https://github.com/azdrums/azdrums.github.io"
 
 locale:
