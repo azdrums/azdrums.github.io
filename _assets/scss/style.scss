@@ -1,0 +1,8 @@
+$blue: #337ab7;
+$navbar-dark-color: rgba(#fff, .75);
+$navbar-dark-hover-color: #fff;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "syntax-highlight";
+@import "google-cse";
+@import "scroll-to-top";

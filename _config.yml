@@ -1,0 +1,58 @@
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - assets/css/style.css
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - new_post.pl
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - setup.sh
+  - TODO.md
+  - yarn.lock
+  - yarn-error.log
+
+plugins:
+  - jekyll-sitemap
+
+url: "https://azdrums.github.io"
+
+organization:
+  name: "AZDrums"
+  url: "https://azdrums.github.io"
+
+repository:
+  name: "gh-pages"
+  url: "https://github.com/azdrums/azdrums.github.io"
+
+locale:
+  default: "en"
+
+authors:
+  content: "RedTide"
+  web: "RedTide"
+
+search: "google-cse.js"
+
+google:
+  analytics_code: "UA-115525913-1"
+  cse_code: "006405061798903882253:eeqyvtqcspo"

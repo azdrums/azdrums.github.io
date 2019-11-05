@@ -1,0 +1,35 @@
+navigation:
+- label: "Projects"
+  type: "dropdown"
+  pages:
+  - label: "SmartHHC - Digital HiHat Controller"
+    url: "/smarthhc"
+
+cards:
+- label: "Follow us"
+  icon_type: "eye"
+  icon_category: "fas"
+  links:
+  - label: "GitHub Organization"
+    url: "https://github.com/azdrums/"
+    icon_type: "github"
+    icon_category: "fab"
+
+  - label: "Discord Chat"
+    url: "https://discord.gg/4bXcxRS"
+    icon_type: "discord"
+    icon_category: "fab"
+
+  - label: "News Atom Feed"
+    url: "/atom.xml"
+    icon_type: "rss"
+    icon_category: "fas"
+
+- label: "Quick links"
+  icon_type: "link"
+  icon_category: "fas"
+  links:
+    - label: "SFZ Format"
+      url: "https://sfzformat.github.io"
+      icon_type: "file-audio"
+      icon_category: "fas"
