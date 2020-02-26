@@ -1,3 +1,4 @@
-[AZDrums] static website
+# Static website source code
 
-[AZDrums]: https://azdrums.github.io
+- [GitHub](https://azdrums.github.io)
+- [GitLab](https://azdrums.gitlab.io)
