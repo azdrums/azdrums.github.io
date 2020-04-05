@@ -4,7 +4,6 @@ _site
 .bundle
 .vendor
 .vscode
-.website*
 assets/css/*.map
 assets/css/style.css
 assets/js/*.map
@@ -14,3 +13,4 @@ Gemfile.lock
 package-lock.json
 yarn.lock
 *.log
+*.code-workspace
