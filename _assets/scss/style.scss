@@ -1,8 +1,11 @@
 $blue: #337ab7;
+/*
 $navbar-dark-color: rgba(#fff, .75);
 $navbar-dark-hover-color: #fff;
-
+navbar, card-header {background-color:#222"}
 @import "../../node_modules/bootstrap/scss/bootstrap";
+*/
+@import "../../node_modules/bootswatch/dist/slate/bootstrap.min.css";
 @import "syntax-highlight";
 @import "google-cse";
 @import "scroll-to-top";
