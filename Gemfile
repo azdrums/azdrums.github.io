@@ -7,9 +7,9 @@ ruby "2.5.3"
 # Uncomment to build our site in Travis-CI
 # see https://docs.travis-ci.com/user/languages/ruby/#default-build-script
 # and https://github.com/travis-ci/travis-web/blob/master/Gemfile
-group :development, :test do
-  gem "rake", "~> 12"
-end
+#group :development, :test do
+#  gem "rake", "~> 12"
+#end
 
 gem "jekyll", "3.8.5"
 

@@ -36,7 +36,7 @@ exclude:
 - yarn-error.log
 
 plugins:
-  - jekyll-sitemap
+- jekyll-sitemap
 
 name: "AZDrums"
 url: "https://azdrums.github.io"
@@ -51,7 +51,7 @@ locale:
 
 authors:
   content: "RedTide"
-  web: "RedTide"
+  web:     "RedTide"
 
 search: "google-cse.js"
 
