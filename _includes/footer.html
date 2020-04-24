@@ -1,9 +1,16 @@
+{%-assign hostname = site.github.hostname-%}
+{%-if hostname == nil-%}
+	{%-assign hostname = "gitlab.com"-%}
+{%-endif-%}
 			<hr>
 			<footer>
 				<p style="text-align:left">Copyright &copy; {{ site.time | date: "%Y" }}
 					{{ site.name }} Team
 					<span style="float:right">This site is open source.
-						<a href="{{site.repository.url}}/edit/{{site.repository.name}}/{{page.path}}">
+						<a href="{{ 'https://' | append: hostname | append: '/'
+							| append: site.repository.slug | append: '/edit/'
+							| append: site.repository.branch | append: '/'
+							| append: page.path | absolute_url }}">
 						Improve this page</a></span>
 				</p>
 			</footer>
