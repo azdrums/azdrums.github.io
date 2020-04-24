@@ -15,8 +15,13 @@ cards:
     icon_type: "github"
     icon_category: "fab"
 
+  - label: "GitLab Organization"
+    url: "https://gitlab.com/azdrums/"
+    icon_type: "gitlab"
+    icon_category: "fab"
+
   - label: "Discord Chat"
-    url: "https://discord.gg/4bXcxRS"
+    url: "https://discordapp.com/channels/702766462179475499"
     icon_type: "discord"
     icon_category: "fab"
 
