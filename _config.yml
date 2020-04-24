@@ -43,8 +43,8 @@ url: "https://azdrums.github.io"
 description: "E-Drums Projects"
 
 repository:
-  name: "master"
-  url: "https://github.com/azdrums/azdrums.github.io"
+  branch: "master"
+  slug:   "azdrums/azdrums.github.io"
 
 locale:
   default: "en"
