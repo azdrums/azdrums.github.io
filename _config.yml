@@ -3,6 +3,7 @@ defaults:
     path: ""
   values:
     lang: "en"
+    date_fmt: "%B %d, %Y"
 
 - scope:
     path: ""
@@ -37,6 +38,7 @@ exclude:
 
 plugins:
 - jekyll-sitemap
+- jemoji
 
 name: "AZDrums"
 url: "https://azdrums.github.io"
@@ -50,11 +52,19 @@ locale:
   default: "en"
 
 authors:
-  content: "RedTide"
-  web:     "RedTide"
+  content: "redtide"
+  web:     "redtide"
 
-search: "google-cse.js"
+#google:
+#  analytics: "UA-115525913-1"
+#  cse: "006405061798903882253:eeqyvtqcspo"
 
-google:
-  analytics_code: "UA-115525913-1"
-  cse_code: "006405061798903882253:eeqyvtqcspo"
+realfavicons:
+  sizes:
+    big:    "152x152"
+    medium: "32x32"
+    small:  "16x16"
+  colors:
+    mask:    "#5bbad5"
+    ms_tile: "#2d89ef"
+    theme:   "#ffffff"

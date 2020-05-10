@@ -1,0 +1,43 @@
+- command: "G <code>{f1|f2|f3}</code>"
+  description: "Gets the value of the specified fixed pedal position."
+
+- command: "G i"
+  description: "Gets the index of the last <code>MCP_out</code> array element
+                value written to the digital potentiometer. <strong>[1]</strong>"
+
+- command: "G m"
+  description: "Gets the <code>ADC</code> logical value of the min (closed) pedal position."
+
+- command: "G M"
+  description: "Gets the <code>ADC</code> logical value of the MAX (open) pedal position."
+
+- command: "G P"
+  description: "Gets the <code>ADC</code> logical value of the current pedal position.
+                It can be higher than MAX or lower than min."
+
+- command: "G r <code>{0-127}</code>"
+  description: "Gets the value of the specified <code>MCP_out</code> array element index."
+
+- command: "G R"
+  description: "Gets the <code>MCP_out</code> array."
+
+- command: "S <code>{f1|f2|f3}</code> N"
+  description: "Sets the value of the specified fixed pedal position."
+
+- command: "S m N"
+  description: "Sets the <code>ADC</code> logical value of the min (closed) pedal position."
+
+- command: "S M N"
+  description: "Sets the <code>ADC</code> logical value of the MAX (open) pedal position."
+
+- command: "S r <code>{0-127}</code> N"
+  description: "Sets the value of the specified index of a <code>MCP_out</code> array element."
+
+- command: "W <code>{f1|f2|f3}</code>"
+  description: "Writes the value of the specified fixed pedal position to EEPROM."
+
+- command: "W m"
+  description: "Writes the values of the min and MAX pedal positions to EEPROM."
+
+- command: "W R"
+  description: "Writes the <code>MCP_out</code> array to EEPROM."

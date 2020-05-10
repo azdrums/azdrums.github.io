@@ -1,7 +1,7 @@
 {
 	"name": "azdrums",
 	"version": "0.1.0",
-	"author": "E-Drums Projects",
+	"author": "redtide",
 	"homepage": "https://azdrums.github.io/",
 	"scripts": {
 		"css": "node node_modules/npm-run-all/bin/run-s/index.js css-compile css-prefix css-minify",
@@ -19,6 +19,9 @@
 		"type": "git",
 		"url": "git@github.com:azdrums/azdrums.github.io.git"
 	},
+	"bugs": {
+		"url": "https://github.com/azdrums/azdrums.github.io/issues"
+	},
 	"license": "MPL-2.0",
 	"engines": {
 		"node": ">= 6.9.0"
@@ -26,7 +29,6 @@
 	"dependencies": {
 		"autoprefixer": "^8.2.0",
 		"bootstrap": "^4.0.0",
-		"bootswatch": "^4.4.1",
 		"clean-css-cli": "^4.1.11",
 		"globby": "^9.0.0",
 		"jquery": "^3.4.1",

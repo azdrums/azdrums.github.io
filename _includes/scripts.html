@@ -1,9 +1,7 @@
 		<script src="{{ '/assets/js/scripts.min.js' | relative_url }}"></script>
 {%-for script in page.scripts-%}
 		{{ newLine }}
-		<script src="{{ append: '/assets/js/' | append: script | append: '.js' | relative_url }}"></script>
+		<script src="{{ '/assets/js/' | append: script | append: '.js' | relative_url }}"></script>
 {%-endfor-%}
-{%-if page.dir == "/search/"-%}
-		<script src="{{ '/assets/js/' | append: site.search | relative_url }}"></script>
-{%-endif-%}
-{%- include custom-scripts.html -%}
+{{ newLine }}
+{% include custom-scripts.html %}

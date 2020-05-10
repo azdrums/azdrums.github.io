@@ -3,22 +3,20 @@ navigation:
   type: "dropdown"
   pages:
   - label: "SmartHHC - Digital HiHat Controller"
-    url: "/smarthhc"
+    url: "/smarthhc/"
+
+ # - label: "SmartWidgets"
+ #   url: "/smartwidgets/"
 
 cards:
 - label: "Follow us"
   icon_type: "eye"
   icon_category: "fas"
   links:
-  - label: "GitHub Organization"
-    url: "https://github.com/azdrums/"
-    icon_type: "github"
-    icon_category: "fab"
-
-  - label: "GitLab Organization"
-    url: "https://gitlab.com/azdrums/"
-    icon_type: "gitlab"
-    icon_category: "fab"
+  - label: "IRC"
+    url: https://kiwiirc.com/nextclient/#irc://irc.freenode.net:+6697/#azdrums
+    icon_type: "hashtag"
+    icon_category: "fas"
 
   - label: "Discord Chat"
     url: "https://discordapp.com/channels/702766462179475499"
@@ -30,11 +28,36 @@ cards:
     icon_type: "rss"
     icon_category: "fas"
 
+  - label: "GitHub Organization"
+    url: "https://github.com/azdrums/"
+    icon_type: "github"
+    icon_category: "fab"
+
+  - label: "GitLab Organization"
+    url: "https://gitlab.com/azdrums/"
+    icon_type: "gitlab"
+    icon_category: "fab"
+
 - label: "Quick links"
   icon_type: "link"
   icon_category: "fas"
   links:
-    - label: "SFZ Format"
-      url: "https://sfzformat.github.io"
-      icon_type: "file-audio"
-      icon_category: "fas"
+  - label: "SFZ Format"
+    url: "https://sfzformat.github.io/"
+    icon_type: "book"
+    icon_category: "fas"
+
+  - label: "Free SFZ Instruments"
+    url: "https://github.com/sfzinstruments/"
+    icon_type: "download"
+    icon_category: "fas"
+
+  - label: "Linuxaudio.org"
+    url: "https://linuxaudio.org/"
+    icon_type: "music"
+    icon_category: "fas"
+
+  - label: "LinuxMAO"
+    url: "https://linuxmao.org/"
+    icon_type: "music"
+    icon_category: "fas"
