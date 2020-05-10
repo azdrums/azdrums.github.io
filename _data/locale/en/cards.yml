@@ -1,14 +1,3 @@
-navigation:
-- label: "Projects"
-  type: "dropdown"
-  pages:
-  - label: "SmartHHC - Digital HiHat Controller"
-    url: "/smarthhc/"
-
- # - label: "SmartWidgets"
- #   url: "/smartwidgets/"
-
-cards:
 - label: "Follow us"
   icon_type: "eye"
   icon_category: "fas"

@@ -1,4 +1,9 @@
-{% for card in site.data.locale[page.lang].layout.cards %}
+{%-if page.cards-%}
+	{%-assign cards = site.data.locale[page.lang].[page.cards] -%}
+{%-else-%}
+	{%-assign cards = site.data.locale[page.lang].cards-%}
+{%-endif-%}
+{% for card in cards %}
 						<div class="card border-dark mb-3">
 							<div class="card-header text-light"
 								style="background-color:#222">

@@ -1,0 +1,18 @@
+- label: "Megadrum User Manual"
+  icon_type: "book"
+  icon_category: "fas"
+  links:
+  - label: "MegaDrum Menu"
+    url: "/megadrum/menu/"
+
+  - label: "Miscellaneous Settings"
+    url: "/megadrum/miscellaneous-settings/"
+
+  - label: "HiHat Pedal Settings"
+    url: "/megadrum/hihat-pedal-settings/"
+
+  - label: "Pad Settings"
+    url: "/megadrum/pad-settings/"
+
+  - label: "Configuration Tips and Hints"
+    url: "/megadrum/configuration-tips-and-hints/"
