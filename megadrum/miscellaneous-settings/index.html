@@ -1,0 +1,1243 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="AZDrums website" name="description"/>
+<meta content="redtide" name="author"/>
+<link href="https://azdrums.github.io/megadrum/miscellaneous-settings/" rel="canonical"/>
+<link href="../menu/" rel="prev"/>
+<link href="../pad-settings/" rel="next"/>
+<link href="../../assets/ico/favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.4" name="generator"/>
+<title>Miscellaneous Settings - AZDrums</title>
+<link href="../../assets/stylesheets/main.240905d7.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link href="../../common/stylesheets/github.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                .gdesc-inner { font-size: 0.75rem; }
+                body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+                body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+                body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#midi-speed">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="AZDrums" class="md-header__button md-logo" data-md-component="logo" href="/" title="AZDrums">
+<img alt="logo" src="../../assets/img/logo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            AZDrums
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Miscellaneous Settings
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="AZDrums" class="md-nav__button md-logo" data-md-component="logo" href="/" title="AZDrums">
+<img alt="logo" src="../../assets/img/logo.png"/>
+</a>
+    AZDrums
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        Home
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../downloads/">
+        Downloads
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Projects
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+          SmartHHC
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_1">
+<span class="md-nav__icon md-icon"></span>
+          SmartHHC
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../smarthhc/">
+        SmartHHC - Digital HiHat Controller
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../smarthhc/commands/">
+        Commands
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+          SmartWidgets
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_2">
+<span class="md-nav__icon md-icon"></span>
+          SmartWidgets
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../smartwidgets/">
+        Home
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../smartwidgets/actionbar/">
+        Android ActionBar for Qt
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../smartwidgets/spinbox/">
+        SpinBox
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../smartwidgets/tablayout/">
+        TabLayout
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          MegaDrum
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          MegaDrum
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../configuration-tips-and-hints/">
+        Configuration tips and hints
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../hihat-pedal-settings/">
+        HiHat Pedal Settings
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../menu/">
+        General info about MegaDrum Menu
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Miscellaneous Settings
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Miscellaneous Settings
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#midi-speed">
+    MIDI Speed
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#autoload-configuration">
+    AutoLoad Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#alternative-encoders">
+    Alternative Encoders
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#maximum-number-of-inputs">
+    Maximum Number of Inputs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-custom-configuration-names">
+    Enable Custom Configuration Names
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-custom-pad-names">
+    Enable Custom Pad Names
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#midi2forsysex">
+    MIDI2ForSysEx
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#load-rom-kitmap">
+    Load ROM Kit/Map
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#current-configuration">
+    Current Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#save-configuration">
+    Save Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#load-configuration">
+    Load Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#save-drum-map">
+    Save Drum Map
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#load-drum-map">
+    Load Drum Map
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#chain-id">
+    Chain ID
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#send-sysex-configuration">
+    Send SysEx Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#midi-thru-enabled">
+    MIDI Thru Enabled
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#noteoff-delay">
+    NoteOff Delay
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pressroll-time">
+    PressRoll Time
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#latency">
+    Latency
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#octave-shift">
+    Octave Shift
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#big-vu-meter">
+    Big VU Meter
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#big-vu-split">
+    Big VU Split
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#quick-access">
+    Quick Access
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#triggered-in-cc">
+    Triggered In CC
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#altfalsetrsupp">
+    AltFalseTrSupp
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inputs-priority">
+    Inputs Priority
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#altnote-choking">
+    AltNote Choking
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#noise-filter">
+    Noise Filter
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#positional-input">
+    Positional Input
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#positional-lv">
+    Positional Lv
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#positional-low-hi">
+    Positional Low / Hi
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-channels">
+    Set All Channels
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-curves">
+    Set All Curves
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-crosstalk">
+    Set All Crosstalk
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-edgesw">
+    Set All EdgeSw
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-bellsw">
+    Set All BellSw
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-threshold">
+    Set All Threshold
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-retrigger">
+    Set All Retrigger
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-minimum-scan">
+    Set All Minimum Scan
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-dynamic-threshold-level">
+    Set All Dynamic Threshold level
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-dynamic-threshold-decay-time">
+    Set All Dynamic Threshold Decay time
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#customcurve-1-2-3-4">
+    CustomCurve 1 / 2 / 3 / 4
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#all-gains-low">
+    All Gains Low
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#alternative-sampling-algorithm">
+    Alternative Sampling Algorithm
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../pad-settings/">
+        Pad Settings
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Quick Links
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Quick Links
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://sfzformat.github.io/">
+        SFZ Format
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://github.com/sfzinstruments/">
+        Free SFZ Instruments
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://linuxaudio.org/">
+        Linuxaudio.org
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://linuxmao.org/">
+        LinuxMAO
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#midi-speed">
+    MIDI Speed
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#autoload-configuration">
+    AutoLoad Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#alternative-encoders">
+    Alternative Encoders
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#maximum-number-of-inputs">
+    Maximum Number of Inputs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-custom-configuration-names">
+    Enable Custom Configuration Names
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-custom-pad-names">
+    Enable Custom Pad Names
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#midi2forsysex">
+    MIDI2ForSysEx
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#load-rom-kitmap">
+    Load ROM Kit/Map
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#current-configuration">
+    Current Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#save-configuration">
+    Save Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#load-configuration">
+    Load Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#save-drum-map">
+    Save Drum Map
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#load-drum-map">
+    Load Drum Map
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#chain-id">
+    Chain ID
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#send-sysex-configuration">
+    Send SysEx Configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#midi-thru-enabled">
+    MIDI Thru Enabled
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#noteoff-delay">
+    NoteOff Delay
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pressroll-time">
+    PressRoll Time
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#latency">
+    Latency
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#octave-shift">
+    Octave Shift
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#big-vu-meter">
+    Big VU Meter
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#big-vu-split">
+    Big VU Split
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#quick-access">
+    Quick Access
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#triggered-in-cc">
+    Triggered In CC
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#altfalsetrsupp">
+    AltFalseTrSupp
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inputs-priority">
+    Inputs Priority
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#altnote-choking">
+    AltNote Choking
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#noise-filter">
+    Noise Filter
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#positional-input">
+    Positional Input
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#positional-lv">
+    Positional Lv
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#positional-low-hi">
+    Positional Low / Hi
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-channels">
+    Set All Channels
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-curves">
+    Set All Curves
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-crosstalk">
+    Set All Crosstalk
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-edgesw">
+    Set All EdgeSw
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-bellsw">
+    Set All BellSw
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-threshold">
+    Set All Threshold
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-retrigger">
+    Set All Retrigger
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-minimum-scan">
+    Set All Minimum Scan
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-dynamic-threshold-level">
+    Set All Dynamic Threshold level
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-all-dynamic-threshold-decay-time">
+    Set All Dynamic Threshold Decay time
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#customcurve-1-2-3-4">
+    CustomCurve 1 / 2 / 3 / 4
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#all-gains-low">
+    All Gains Low
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#alternative-sampling-algorithm">
+    Alternative Sampling Algorithm
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Miscellaneous Settings</h1>
+<h2 id="midi-speed"><a name="MIDISpeed"></a>MIDI Speed</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>&lt;MIDI Speed    &gt;
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>&lt;     USB+MIDI &gt;
+</code></pre></div>
+(Atmega (old) based MegaDrum only) It can be set to "USB+MIDI", "USB only 1",
+"USB only 2", "USB only 3". "USB+MIDI" uses standard 31.25k MIDI speed and is
+compatible with older PIC USB MIDI firmware. "USB only 1", "USB only 2" and
+"USB only 3" switches the speed to 125k, 187.5k and 250k. Depending on the PCB
+and soldering quality and chips samples not all "USB only x" will work properly.
+Switching to higher speeds will only work with a newer version (21/04/2011) of
+PIC USB MIDI firmware. Switching to higher USB MIDI speeds reduces overall
+latency over USB by 0.5-1.5ms.</p>
+<p>This is a Global setting so when you change this setting it is only saved in
+no-volatile (EEPROM) memory when you exit the Menu. So, as a consequence, if you
+change it and switch MegaDrum off straight away to test it without exiting the
+Menu, it will revert to a previous state before the change.</p>
+<h2 id="autoload-configuration"><a name="AutoLoadConf"></a>AutoLoad Configuration</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>&lt;AutoLoad Conf &gt;
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>&lt;          No  &gt;
+</code></pre></div>
+When set to Yes, MegaDrum will automatically load last saved/loaded config and
+drum map upon powering up. You can by pass auto loading config even if you set
+it to Yes by hold the key RIGHT while switching MegaDrum on. It will then load
+default settings.</p>
+<p>This is a Global setting so when you change this setting between Yes and No the
+setting is only saved in no-volatile (EEPROM) memory when you exit the Menu.
+So, as a consequence, if you change it and switch MegaDrum off straight away to
+test it without exiting the Menu, it will revert to a previous state before the
+change.</p>
+<h2 id="alternative-encoders"><a name="AltEncoders"></a>Alternative Encoders</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>&lt;AltEncoders   &gt;
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>&lt;          No  &gt;
+</code></pre></div>
+MegaDrum can be used with two types of rotary encoders - one with one pulse per
+detent, another with two pulses per detent. For encoders with one pulse per
+detent set AltEncoders to No, for encoders with two pulses per detent set
+AltEncoders to Yes. Before the encoders can function properly you first need to
+set AltEncoders to a proper value with buttons only.</p>
+<p>This is a Global setting so when you change this setting between Yes and No the
+setting is only saved in no-volatile (EEPROM) memory when you exit the Menu. So,
+as a consequence, if you change it and switch MegaDrum off straight away to test
+it without exiting the Menu, it will revert to a previous state before the change.</p>
+<h2 id="maximum-number-of-inputs"><a name="MaxInputs"></a>Maximum Number of Inputs</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>&lt;MaxInputs     &gt;
+<a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a>&lt;           56 &gt;
+</code></pre></div>
+Here you can set the maximum number of inputs used. The lower the MaxInputs the
+more Configs/DrumMaps you can save in non-volatile memory but it will limit you
+to the number of inputs set here. When you change MaxInputs to a new number
+don't try to load Configs/Drum Maps saved previously - it can cause MegaDrum to
+misbehave.</p>
+<p>This is a Global setting so when you change this setting it is only saved in
+no-volatile (EEPROM) memory when you exit the Menu. So, as a consequence, if you
+change it and switch MegaDrum off straight away to test it without exiting the
+Menu, it will revert to a previous state before the change.</p>
+<h2 id="enable-custom-configuration-names"><a name="ConfigNamesEn"></a>Enable Custom Configuration Names</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>&lt;ConfigNamesEn &gt;
+<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a>&lt;           No &gt;
+</code></pre></div>
+Enables/disables support for editable Custom Config Names.
+Default is No (disabled). When set yo Yes, it enables support for editable
+Custom Config Names and in this case MegaDrum uses more internal non-volatile
+(EEPROM) memory for storing each Config thus reducing the number of Configs/Drum
+Maps which can be saved. Custom Config Names themselves can only be changed via
+SysEx messages, e.g. using MegaDrum Manager.</p>
+<p>This is a Global setting so when you change this setting it is only saved in
+no-volatile (EEPROM) memory when you exit the Menu. So, as a consequence, if you
+change it and switch MegaDrum off straight away to test it without exiting the
+Menu, it will revert to a previous state before the change.</p>
+<h2 id="enable-custom-pad-names"><a name="CustomNamesEn"></a>Enable Custom Pad Names</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a>&lt;CustomNamesEn &gt;
+<a href="#__codelineno-5-2" id="__codelineno-5-2" name="__codelineno-5-2"></a>&lt;           No &gt;
+</code></pre></div>
+Enables/disables support for editable Custom Pads Names.
+Default is No (disabled). When set yo Yes, it enables support for editable
+Custom Pads Names and in this case MegaDrum uses more internal non-volatile
+(EEPROM) memory for storing each Config thus reducing the number of Configs/Drum
+Maps which can be saved. Custom Pads Names themselves can only be changed via
+SysEx messages, e.g. using MegaDrum Manager. The editable Custom Pads names are
+available as last 32/16/2 names in PadName-&gt;Name selection list. The number of
+available editable Custom Pads Names depends on a chip used: Atmega1284 - 32
+editable custom pads names, Atmega644 - 16, Atmega32/324 - 2.</p>
+<p>This is a Global setting so when you change this setting it is only saved in
+no-volatile (EEPROM) memory when you exit the Menu. So, as a consequence, if you
+change it and switch MegaDrum off straight away to test it without exiting the
+Menu, it will revert to a previous state before the change.</p>
+<h2 id="midi2forsysex"><a name="MIDI2ForSysEx"></a>MIDI2ForSysEx</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a>&lt;MIDI2ForSysEx &gt;
+<a href="#__codelineno-6-2" id="__codelineno-6-2" name="__codelineno-6-2"></a>&lt;           No &gt;
+</code></pre></div>
+(STM32 based MegaDrum only) When set to Yes the second USB MIDI Port will
+transmit only SySex messages.
+Default is No. This is implemented to prevent MIDI softs/synths listening on all
+MIDI ports from receiving the same Note On/Off messages twice.</p>
+<p>This is a Global setting so when you change this setting it is only saved in
+no-volatile (EEPROM) memory when you exit the Menu. So, as a consequence, if you
+change it and switch MegaDrum off straight away to test it without exiting the
+Menu, it will revert to a previous state before the change.</p>
+<h2 id="load-rom-kitmap"><a name="LoadROMKitMap"></a>Load ROM Kit/Map</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a>&lt;Load ROM Kit  &gt;
+<a href="#__codelineno-7-2" id="__codelineno-7-2" name="__codelineno-7-2"></a>&lt;           No &gt;
+<a href="#__codelineno-7-3" id="__codelineno-7-3" name="__codelineno-7-3"></a>
+<a href="#__codelineno-7-4" id="__codelineno-7-4" name="__codelineno-7-4"></a>&lt;Load ROM Map  &gt;
+<a href="#__codelineno-7-5" id="__codelineno-7-5" name="__codelineno-7-5"></a>&lt;           No &gt;
+</code></pre></div>
+Loading predefined Kits/Drum Maps intended for MegaDrum newcomers to get a quick start.
+As of now there are 3 predefined kits/maps: Default, Basic and Advanced.
+Basic and Advanced kits/maps are developed by Anders (angr77) to match
+Addictive Drums MegaDrum map and Anders' reference Basic and Advanced kits.</p>
+<h2 id="current-configuration"><a name="CurrentConfig"></a>Current Configuration</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-8-1" id="__codelineno-8-1" name="__codelineno-8-1"></a>&lt;CurrentConfig &gt;
+<a href="#__codelineno-8-2" id="__codelineno-8-2" name="__codelineno-8-2"></a>&lt;           1  &gt;
+</code></pre></div>
+Shows currently loaded/saved config used by MegaDrum.</p>
+<h2 id="save-configuration"><a name="SaveConfig"></a>Save Configuration</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-9-1" id="__codelineno-9-1" name="__codelineno-9-1"></a>&lt;Save Config   &gt;
+<a href="#__codelineno-9-2" id="__codelineno-9-2" name="__codelineno-9-2"></a>&lt;           No &gt;
+</code></pre></div>
+When on this screen you can save your current MegaDrum configuration into
+non-volatile memory. You can save several configurations into different memory
+slots. The number of Config slots depends on a type of Atmega  and the number of
+inputs set in MaxInputs. Select a slot you want to save the configuration into
+with keys UP/DOWN and then press the key RIGHT. After a few seconds it will show
+'Done' indicating that the configuration has been saved.</p>
+<h2 id="load-configuration"><a name="LoadConfig"></a>Load Configuration</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-10-1" id="__codelineno-10-1" name="__codelineno-10-1"></a>&lt;Load Config   &gt;
+<a href="#__codelineno-10-2" id="__codelineno-10-2" name="__codelineno-10-2"></a>&lt;           No &gt;
+</code></pre></div>
+When on this screen you can load a previously saved MegaDrum configuration from
+non-volatile memory. Select a slot you want to load the configuration from with
+keys UP/DOWN and then press the key RIGHT. After a few seconds it will show
+'Done' indicating that the configuration has been loaded.</p>
+<h2 id="save-drum-map"><a name="SaveDrumMap"></a>Save Drum Map</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-11-1" id="__codelineno-11-1" name="__codelineno-11-1"></a>&lt;Save DrumMap  &gt;
+<a href="#__codelineno-11-2" id="__codelineno-11-2" name="__codelineno-11-2"></a>&lt;           No &gt;
+</code></pre></div>
+When on this screen you can save the current drum map into non-volatile memory.
+Drum map is a mapping (matching) between pad inputs and notes assigned to those
+pads. Select a slot you want to save the drum map to with keys UP/DOWN and then
+press the key RIGHT. After a few seconds it will show 'Done' indicating that the
+drum map has been saved. The number of DrumMap slots depends on a type of Atmega
+and the number of inputs set in MaxInputs.</p>
+<h2 id="load-drum-map"><a name="LoadDrumMap"></a>Load Drum Map</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-12-1" id="__codelineno-12-1" name="__codelineno-12-1"></a>&lt;Load DrumMap  &gt;
+<a href="#__codelineno-12-2" id="__codelineno-12-2" name="__codelineno-12-2"></a>&lt;           No &gt;
+</code></pre></div>
+When on this screen you can load a previously saved drum map from non-volatile
+memory. Select a slot you want to load the drum map from with keys UP/DOWN and
+then press the key RIGHT. After a few seconds it will show 'Done' indicating
+that the drum map has been loaded.</p>
+<h2 id="chain-id"><a name="ChainID"></a>Chain ID</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-13-1" id="__codelineno-13-1" name="__codelineno-13-1"></a>&lt;SysEx ChainID &gt;
+<a href="#__codelineno-13-2" id="__codelineno-13-2" name="__codelineno-13-2"></a>&lt;            0 &gt;
+</code></pre></div>
+When you use MegaDrumManager to control MegaDrum and have two (more?) modules
+chained together over MIDI ports, you must assign different ChainIDs to each
+module to be able to control each unit individually. Default ChainID is 0.</p>
+<h2 id="send-sysex-configuration"><a name="SendConfSysEx"></a>Send SysEx Configuration</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-14-1" id="__codelineno-14-1" name="__codelineno-14-1"></a>&lt;Send ConfSysex&gt;
+<a href="#__codelineno-14-2" id="__codelineno-14-2" name="__codelineno-14-2"></a>&lt;              &gt;
+</code></pre></div>
+From this screen you can manually force MegaDrum to send the full current
+configuration as a set of SysEx MIDI messages. You may want to do it if you
+cannot use MegaDrumManager and need to save the configuration externally using
+e.g. MIDI-OX. You can later send the whole set of SysEx MIDI messages back to
+MegaDrum, e.g. again using MIDI-OX, to apply saved configuration. While in this
+screen press the key UP to send the configuration.</p>
+<h2 id="midi-thru-enabled"><a name="MIDIThruEnabled"></a>MIDI Thru Enabled</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-15-1" id="__codelineno-15-1" name="__codelineno-15-1"></a>&lt;MIDIThru Enbld&gt;
+<a href="#__codelineno-15-2" id="__codelineno-15-2" name="__codelineno-15-2"></a>&lt;           No &gt;
+</code></pre></div>
+Enable/disable MIDI Thru. By default it is set to No (disabled). When enabled
+MegaDrum will send out all MIDI messages it receives over MIDI.</p>
+<h2 id="noteoff-delay"><a name="NoteOffDelay"></a>NoteOff Delay</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-16-1" id="__codelineno-16-1" name="__codelineno-16-1"></a>&lt;NoteOff Delay &gt;
+<a href="#__codelineno-16-2" id="__codelineno-16-2" name="__codelineno-16-2"></a>&lt;          200 &gt;
+</code></pre></div>
+This setting configures how many milliseconds should pass before a Note Off MIDI
+message is sent after a previous Note On message. Can be set between 20 and 2000
+milliseconds (0.02 - 2 seconds).</p>
+<h2 id="pressroll-time"><a name="PressRollTime"></a>PressRoll Time</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-17-1" id="__codelineno-17-1" name="__codelineno-17-1"></a>&lt;PressRoll Time&gt;
+<a href="#__codelineno-17-2" id="__codelineno-17-2" name="__codelineno-17-2"></a>&lt;            0 &gt;
+</code></pre></div>
+Maximum time out in milliseconds between consecutive hits for "pressroll"
+detection.  If a next hit follows a previous hit in less than this time out then
+the note value for the hit will be taken from PNote (PBNote for 3rd zones) rather
+than from Note or ANote (BNote or ABNote for 3rd zones). Can be set between 0
+and NoteOff Delay value.</p>
+<h2 id="latency"><a name="Latency"></a>Latency</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-18-1" id="__codelineno-18-1" name="__codelineno-18-1"></a>&lt;Latency       &gt;
+<a href="#__codelineno-18-2" id="__codelineno-18-2" name="__codelineno-18-2"></a>&lt;           40 &gt;
+</code></pre></div>
+This setting should have probably be called something like Group scan frequency.
+Internally MegaDrum scans all inputs every 10-30 microseconds for presence of
+signals. Then, very simplified, every <latency> period MegaDrum scans inputs
+states to see if any of the inputs registered signals and sends MIDI messages
+for triggered inputs. Lowering this setting will reduce latency and may degrade
+level detection precision. Raising this setting may improve level detection
+precision and will increase latency. Latency can be changed between 10 and 100
+which corresponds to 1 and 10 milliseconds. Default is 40 - 4 millisecond. Also
+when it is set to an odd value (e.g. 21, 23, 25 and so on) it enables a visual
+cue to see if pads Thresholds are set too low - when a pad is hit lightly but
+not enough to exceed Threshold level the VU meter for the pad set to a maximum
+but no MIDI signal is sent and the LED stays off. If VU meters start to go off
+without pads being hit then Thresholds for corresponding inputs are set too low.</latency></p>
+<h2 id="octave-shift"><a name="OctaveShift"></a>Octave Shift</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-19-1" id="__codelineno-19-1" name="__codelineno-19-1"></a>&lt;OctaveShift   &gt;
+<a href="#__codelineno-19-2" id="__codelineno-19-2" name="__codelineno-19-2"></a>&lt;           No &gt;
+</code></pre></div>
+It is used to make MegaDrum display all notes names in a desired octave. By
+default it is set to 2 (maximum value). As an example, with the default
+OctaveShift the default Kick note (36) will be shown as from octave 2.</p>
+<h2 id="big-vu-meter"><a name="BigVUMeter"></a>Big VU Meter</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-20-1" id="__codelineno-20-1" name="__codelineno-20-1"></a>&lt;Big VU Meter  &gt;
+<a href="#__codelineno-20-2" id="__codelineno-20-2" name="__codelineno-20-2"></a>&lt;           No &gt;
+</code></pre></div>
+When set to No (default) each of 32 blocks on an LCD is used as an individual
+VU meter for every input. The resolution of each of these small VU meters is 16,
+i.e. one bar per 16 adjacent MIDI levels giving 8 bars for 128 MIDI levels. The
+resolution of the Big VU Meter is much better, approximately 100 bars for 128
+MIDI levels. The next, 'Big VU Split', option determines what is shown in the
+big VU meter.</p>
+<h2 id="big-vu-split"><a name="BigVUSplit"></a>Big VU Split</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-21-1" id="__codelineno-21-1" name="__codelineno-21-1"></a>&lt;Big VU Split  &gt;
+<a href="#__codelineno-21-2" id="__codelineno-21-2" name="__codelineno-21-2"></a>&lt;           No &gt;
+</code></pre></div>
+When set to No (default) (and Big VU Meter is set to Yes) the whole top row of
+the LCD is dedicated to HiHat pedal position and the whole bottom row of the LCD
+shows hit levels from all inputs on a big single VU meter.
+When set to Yes (and Big VU Meter is set to Yes) the whole top row shows hit
+levels from all even (Head/Bow) inputs and the whole bottom row of the LCD shows
+hit levels on odd (Rim/Edge) inputs. The HiHat pedal position is not shown in
+this mode.</p>
+<h2 id="quick-access"><a name="QuickAccess"></a>Quick Access</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-22-1" id="__codelineno-22-1" name="__codelineno-22-1"></a>&lt;Quick Access  &gt;
+<a href="#__codelineno-22-2" id="__codelineno-22-2" name="__codelineno-22-2"></a>&lt;           No &gt;
+</code></pre></div>
+When set to Yes you can quickly jump between inputs in the Menu rather than
+navigate to each input using LEFT/RIGHT keys. First enter the Menu, then press
+the HiHat pedal and then hit a pad you want to configure. Whenever you hit
+another pad while still holding the HiHat pedal pressed and still in the Menu,
+it will jump to the last hit pad input. You have to make a Splash
+(quickly press/release the pedal) twice for Quick Access to become effective.
+When set to No you can quickly load next/previous drum map by pressing keys
+UP/DOWN while not in the Menu and holding the HiHat pedal pressed. May be useful
+for live performances to quickly load different drum maps?</p>
+<h2 id="triggered-in-cc"><a name="TriggeredInCC"></a>Triggered In CC</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-23-1" id="__codelineno-23-1" name="__codelineno-23-1"></a>&lt;TriggeredInCC &gt;
+<a href="#__codelineno-23-2" id="__codelineno-23-2" name="__codelineno-23-2"></a>&lt;           No &gt;
+</code></pre></div>
+When set to Yes and you hit a pad, MegaDrum will send a special MIDI CC message
+telling exactly which input was triggered. This option allows MegaDrum Manager
+(MDM) or MDCommander to quickly switch between inputs configs.</p>
+<h2 id="altfalsetrsupp"><a name="AltFalseTrSupp"></a>AltFalseTrSupp</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-24-1" id="__codelineno-24-1" name="__codelineno-24-1"></a>&lt;AltFalseTrSupp&gt;
+<a href="#__codelineno-24-2" id="__codelineno-24-2" name="__codelineno-24-2"></a>&lt;           No &gt;
+</code></pre></div>
+When set to Yes, MegaDrum uses alternative (old) algorithm for false triggering
+suppression which was the default algorithm in firmware versions before the
+version 20110703. It has an effect on XTalk/Retrigger/DynLvl/DynTime settings.</p>
+<h2 id="inputs-priority"><a name="InputsPriority"></a>Inputs Priority</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-25-1" id="__codelineno-25-1" name="__codelineno-25-1"></a>&lt;InputsPriority&gt;
+<a href="#__codelineno-25-2" id="__codelineno-25-2" name="__codelineno-25-2"></a>&lt;           No &gt;
+</code></pre></div>
+When set to Yes the first 3/4th of Head/Bow inputs are given slightly higher
+priority (sampled more often) then the rest of inputs.</p>
+<h2 id="altnote-choking"><a name="AltNoteChoking"></a>AltNote Choking</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-26-1" id="__codelineno-26-1" name="__codelineno-26-1"></a>&lt;AltNoteChoking&gt;
+<a href="#__codelineno-26-2" id="__codelineno-26-2" name="__codelineno-26-2"></a>&lt;           No &gt;
+</code></pre></div>
+When set to Yes, AltNote from inputs settings is used for cymbals choking
+instead of Aftertouch. When the choke switch is pressed, MegaDrum will send Note
+On with AltNote note and when the switch is released MegaDrum will send Note Off
+with AltNote note.</p>
+<h2 id="noise-filter"><a name="NoiseFilter"></a>Noise Filter</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-27-1" id="__codelineno-27-1" name="__codelineno-27-1"></a>&lt;NoiseFilter   &gt;
+<a href="#__codelineno-27-2" id="__codelineno-27-2" name="__codelineno-27-2"></a>&lt;            5 &gt;
+</code></pre></div>
+(STM32F205 based MegaDrum only). Noise Filtering level. Default is set 5.
+Setting it too high may have negative effect on Positional sensing.</p>
+<h2 id="positional-input"><a name="PositionalIn"></a>Positional Input</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-28-1" id="__codelineno-28-1" name="__codelineno-28-1"></a>&lt;PositionalIn  &gt;
+<a href="#__codelineno-28-2" id="__codelineno-28-2" name="__codelineno-28-2"></a>&lt;     SnareH 4 &gt;
+</code></pre></div>
+Selects which input the further 3 positional sensing settings (PositionalLv,
+PositionalLow, PositionalHi) are to be configured for. You can choose SnareH (4),
+RideH (6), CrushH (8) or Tom1H(10) here.</p>
+<h2 id="positional-lv"><a name="PositionalLv"></a>Positional Lv</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-29-1" id="__codelineno-29-1" name="__codelineno-29-1"></a>&lt;PositionalLv  &gt;
+<a href="#__codelineno-29-2" id="__codelineno-29-2" name="__codelineno-29-2"></a>&lt;           No &gt;
+</code></pre></div>
+Enables/disables Positional Sensing (PS) on a selected input. By default it is
+disabled. To enable PS on a selected input set Positional to 1, 2 or 3
+(corresponding to three variations of PS). The next two settings, PositionalLow
+and PositionalHigh, need to be adjusted for the best PS accuracy. PositionalLow
+and PositionalHigh are adjusted so that to get a full range of detected positions
+(and MIDI CC messages) from a rim (PositionalLow) to a centre (PositionalHigh).
+The default PositionalLow and PositionalHigh are good starting values for Roland
+PD-125X with Positional set to 1.
+When Positional set to 2 the good starting values for Roland PD-125x are ~16 and
+~30. With Positional set to 2, MinScan must be set so that to cover a full half
+wave which is ~30-40 (3-4ms) for Roland PD-125X.
+Positional set to 3 is almost the same as 2 but with slightly different algorithm
+so you may need to set PositionalLow and PositionalHigh slightly higher.
+With PS enabled and LCD showing one of the PS settings, when hitting the snare
+you can see in the botom left of the LCD the relative position of the hit as
+calculated by MegaDrum: ^ symbol shown more to the left for centre hits and more
+to the right for close to rim hits. You will also see the calculated PS value of
+the hit for currently selected PS algorithm (1, 2 or 3) which you should use for
+setting PositionalLow and PositionalHi properly.
+As experimental feature it may or may not work for you.
+There are a few requirements:</p>
+<ul>
+<li>it may work only with mesh type pads with a centrally positioned piezo.</li>
+<li>the pad must not be too hot. If it is too hot it must be "cooled" with a
+voltage divider.
+*the first half wave of a signal from a pad should be positive, e.g my Pintech
+mesh snare is such a pad. Most of other mesh pads out there, like Roland, Drumtec
+and etc, produce a negative first half wave. In this case you will have to use
+a full wave precision rectifier.
+See <a href="http://www.megadrum.info/forums/viewtopic.php?f=3&amp;t=1215">http://www.megadrum.info/forums/viewtopic.php?f=3&amp;t=1215</a> for details.</li>
+</ul>
+<h2 id="positional-low-hi"><a name="PositionalLowHi"></a>Positional Low / Hi</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-30-1" id="__codelineno-30-1" name="__codelineno-30-1"></a>&lt;PositionalLow &gt;
+<a href="#__codelineno-30-2" id="__codelineno-30-2" name="__codelineno-30-2"></a>&lt;            10&gt;
+<a href="#__codelineno-30-3" id="__codelineno-30-3" name="__codelineno-30-3"></a>
+<a href="#__codelineno-30-4" id="__codelineno-30-4" name="__codelineno-30-4"></a>&lt;PositionalHi  &gt;
+<a href="#__codelineno-30-5" id="__codelineno-30-5" name="__codelineno-30-5"></a>&lt;            20&gt;
+</code></pre></div>
+Use these two settings to adjust PS accuracy as described in the previous screen.</p>
+<h2 id="set-all-channels"><a name="SetAllChannels"></a>Set All Channels</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-31-1" id="__codelineno-31-1" name="__codelineno-31-1"></a>&lt;Set All Chnnls&gt;
+<a href="#__codelineno-31-2" id="__codelineno-31-2" name="__codelineno-31-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to globally change MIDI channels on all inputs. Press UP/DOWN to
+choose a MIDI channel and then press RIGHT to apply this setting to all inputs.</p>
+<h2 id="set-all-curves"><a name="SetAllCurves"></a>Set All Curves</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-32-1" id="__codelineno-32-1" name="__codelineno-32-1"></a>&lt;Set All Curves&gt;
+<a href="#__codelineno-32-2" id="__codelineno-32-2" name="__codelineno-32-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to globally change velocity curves on all inputs. Press UP/DOWN
+to choose a velocity curve and then press RIGHT to apply this setting to all
+inputs.</p>
+<h2 id="set-all-crosstalk"><a name="SetAllCross"></a>Set All Crosstalk</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-33-1" id="__codelineno-33-1" name="__codelineno-33-1"></a>&lt;Set All Cross &gt;
+<a href="#__codelineno-33-2" id="__codelineno-33-2" name="__codelineno-33-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to globally change Crosstalk(XTalk) levels on all inputs. Press
+UP/DOWN to choose a Crosstalk level and then press RIGHT to apply this setting
+to all inputs.</p>
+<h2 id="set-all-edgesw"><a name="SetAllEdgeSw"></a>Set All EdgeSw</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-34-1" id="__codelineno-34-1" name="__codelineno-34-1"></a>&lt;Set All EdgeSw&gt;
+<a href="#__codelineno-34-2" id="__codelineno-34-2" name="__codelineno-34-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to automatically set Threshold on all inputs which are configured
+as 'Switch' type for all 2 and 3 zone pads/cymbals. Press UP/DOWN to change it
+to Yes, then press RIGHT and it will then show 'Working'. Now hit a few times
+edge zones of all piezo/switch and piezo/switch/switch pads/cymbals. When done,
+press any button to finish. Note, that you must use only this option to set both
+Edge and Bell Threshold for Roland style 3 way cymbals.</p>
+<h2 id="set-all-bellsw"><a name="SetAllBellSw"></a>Set All BellSw</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-35-1" id="__codelineno-35-1" name="__codelineno-35-1"></a>&lt;Set All BellSw&gt;
+<a href="#__codelineno-35-2" id="__codelineno-35-2" name="__codelineno-35-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to automatically set BThreshold on all inputs which are
+configured as 'Switch' for all 3 zone Yamaha style pads/cymbals. Press UP/DOWN
+to change it to Yes, then press RIGHT and it will then show 'Working'. Now hit a
+few times bell zones of all piezo/switch/switch pads/cymbals. When done, press
+any button to finish.</p>
+<h2 id="set-all-threshold"><a name="SetAllThreshold"></a>Set All Threshold</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-36-1" id="__codelineno-36-1" name="__codelineno-36-1"></a>&lt;Set All Thres &gt;
+<a href="#__codelineno-36-2" id="__codelineno-36-2" name="__codelineno-36-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to globally change Threshold on all inputs. Press UP/DOWN to
+choose a Threshold and then press RIGHT to apply this setting to all inputs.</p>
+<h2 id="set-all-retrigger"><a name="SetAllRetrs"></a>Set All Retrigger</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-37-1" id="__codelineno-37-1" name="__codelineno-37-1"></a>&lt;Set All Retrs &gt;
+<a href="#__codelineno-37-2" id="__codelineno-37-2" name="__codelineno-37-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to globally change Retrigger time on all inputs. Press UP/DOWN
+to choose Retrigger time and then press RIGHT to apply this setting to all inputs.</p>
+<h2 id="set-all-minimum-scan"><a name="SetAllMinScan"></a>Set All Minimum Scan</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-38-1" id="__codelineno-38-1" name="__codelineno-38-1"></a>&lt;Set All MinScn&gt;
+<a href="#__codelineno-38-2" id="__codelineno-38-2" name="__codelineno-38-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to globally change Minimum scan (MinScan) time on all inputs.
+Press UP/DOWN to choose Minimum scan time and then press RIGHT to apply this
+setting to all inputs.</p>
+<h2 id="set-all-dynamic-threshold-level"><a name="SetAllDynLvl"></a>Set All Dynamic Threshold level</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-39-1" id="__codelineno-39-1" name="__codelineno-39-1"></a>&lt;Set All DynLvl&gt;
+<a href="#__codelineno-39-2" id="__codelineno-39-2" name="__codelineno-39-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to globally change Dynamic Threshold level (DynLevel) on all
+inputs. Press UP/DOWN to choose a  Dynamic Threshold level and then press RIGHT
+to apply this setting to all inputs.</p>
+<h2 id="set-all-dynamic-threshold-decay-time"><a name="SetAllDynTim"></a>Set All Dynamic Threshold Decay time</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-40-1" id="__codelineno-40-1" name="__codelineno-40-1"></a>&lt;Set All DynTim&gt;
+<a href="#__codelineno-40-2" id="__codelineno-40-2" name="__codelineno-40-2"></a>&lt;           No &gt;
+</code></pre></div>
+Use this screen to globally change Dynamic Threshold Decay time (DynTime) on all
+inputs. Press UP/DOWN to choose Dynamic Threshold Decay time and then press RIGHT
+to apply this setting to all inputs.</p>
+<h2 id="customcurve-1-2-3-4"><a name="CustomCurve"></a>CustomCurve 1 / 2 / 3 / 4</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-41-1" id="__codelineno-41-1" name="__codelineno-41-1"></a>&lt;CustomCurve1  &gt;
+<a href="#__codelineno-41-2" id="__codelineno-41-2" name="__codelineno-41-2"></a>&lt;P1:         2 &gt;
+</code></pre></div>
+Here you can configure 4 custom curves which you can use in Curve settings of pads.
+Each custom curve has 9 sub menus P1-P9. Each of P1-P9 represents a midpoint for
+setting a relation of input signals to output value where P1 is a weakest
+possible input signal and P9 is a highest input signal. By default the 4 custom
+curves are copies of Linear, Log, Exp and S type curves.
+Here is a graphical demonstration for 3 examples - Log, Exp and S type curves:</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../assets/img/megadrum/Curves.png"><img alt="Curves" src="../../assets/img/megadrum/Curves.png"/></a></p>
+<p>For the Log curve in the example P1-9 midpoints values are:
+2 78 122 157 184 208 226 243 255</p>
+<p>For the Exp curve in the example P1-9 midpoints values are:
+2 13 30 48 72 99 134 178 255</p>
+<p>For the S curve in the example P1-9 midpoints values are:
+2 60 100 125 127 130 160 200 255</p>
+<p>The minimum value for any midpoint is 2 which will translate into a MIDI velocity level 1
+The maximum value for any midpoint is 255 which will translate into a MIDI velocity level 127</p>
+<h2 id="all-gains-low"><a name="AllGainsLow"></a>All Gains Low</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-42-1" id="__codelineno-42-1" name="__codelineno-42-1"></a>&lt;All Gains Low &gt;
+<a href="#__codelineno-42-2" id="__codelineno-42-2" name="__codelineno-42-2"></a>&lt;           No &gt;
+</code></pre></div>
+(Atmega (old) based MegaDrum only). Not used on newer ARM versions. Setting this
+to Yes will disable all individual input Gain levels and make Gain even lower
+than 'Gain Level' 0. It could be used if all your pads are 'hot' and to get a
+better dynamic range with such pads.</p>
+<h2 id="alternative-sampling-algorithm"><a name="AltSamplingAlg"></a>Alternative Sampling Algorithm</h2>
+<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-43-1" id="__codelineno-43-1" name="__codelineno-43-1"></a>&lt;AltSamplingAlg&gt;
+<a href="#__codelineno-43-2" id="__codelineno-43-2" name="__codelineno-43-2"></a>&lt;           No &gt;
+</code></pre></div>
+(STM32F205 based MegaDrum only). Enable/disable Alterantive Sampling Algorithm
+(AltSamplingAlg setting) on MegaDrum with the latest STM32F205RCT6 MCU. The new
+algorithm reduces digital noise and may allow you to set Thresholds lower and as
+a result it may improve sensitivity.</p>
+</article>
+</div>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2019 - 2023 AZDrums
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://kiwiirc.com/nextclient/#irc://irc.freenode.net:+6697/#azdrums" rel="noopener" target="_blank" title="IRC">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8l-9.8 58.8h95.1l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8l-9.7 58.8H416c17.7 0 32 14.3 32 32s-14.3 32-32 32h-68.9l-21.3 128H384c17.7 0 32 14.3 32 32s-14.3 32-32 32h-68.9l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7h-95.2l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.7-58.9H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l21.3-128H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zm5.8 159.6-21.3 128h95.1l21.3-128h-95.1z"></path></svg>
+</a>
+<a class="md-social__link" href="https://discordapp.com/channels/702766462179475499" rel="noopener" target="_blank" title="Discord">
+<svg viewbox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z"></path></svg>
+</a>
+<a class="md-social__link" href="https://github.com/azdrums/" rel="noopener" target="_blank" title="GitHub">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</a>
+<a class="md-social__link" href="https://gitlab.com/azdrums/" rel="noopener" target="_blank" title="GitLab">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m503.5 204.6-.7-1.8-69.7-181.78c-1.4-3.57-3.9-6.59-7.2-8.64-2.4-1.55-5.1-2.515-8-2.81-2.9-.295-5.7.083-8.4 1.11-2.7 1.02-5.1 2.66-7.1 4.78-1.9 2.12-3.3 4.67-4.1 7.44l-47 144H160.8l-47.1-144c-.8-2.77-2.2-5.31-4.1-7.43-2-2.12-4.4-3.75-7.1-4.77a18.1 18.1 0 0 0-8.38-1.113 18.4 18.4 0 0 0-8.04 2.793 18.09 18.09 0 0 0-7.16 8.64L9.267 202.8l-.724 1.8a129.57 129.57 0 0 0-3.52 82c7.747 26.9 24.047 50.7 46.447 67.6l.27.2.59.4 105.97 79.5 52.6 39.7 32 24.2c3.7 1.9 8.3 4.3 13 4.3 4.7 0 9.3-2.4 13-4.3l32-24.2 52.6-39.7 106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.action.view", "content.code.copy", "header.autohide", "navigation.top"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.19047be9.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
