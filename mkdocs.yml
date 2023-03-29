@@ -1,0 +1,62 @@
+INHERIT: docs/common/config.yml
+
+site_name: "AZDrums"
+site_url: "https://azdrums.github.io"
+site_description: "AZDrums website"
+
+copyright: "Copyright &copy; 2019 - 2023 AZDrums"
+#repo_name: "GitHub"
+#repo_url: "https://github.com/azdrums/azdrums.github.io"
+
+extra:
+  homepage: "/"
+  social:
+  - icon: "fontawesome/solid/hashtag"
+    link: "https://kiwiirc.com/nextclient/#irc://irc.freenode.net:+6697/#azdrums"
+    name: "IRC"
+
+  - icon: "fontawesome/brands/discord"
+    link: "https://discordapp.com/channels/702766462179475499"
+    name: "Discord"
+
+# - icon: "fontawesome/normal/rss"
+#   link: "atom.xml"
+#   name: "Atom Feed"
+
+  - icon: "fontawesome/brands/github"
+    link: "https://github.com/azdrums/"
+    name: "GitHub"
+
+  - icon: "fontawesome/brands/gitlab"
+    link: "https://gitlab.com/azdrums/"
+    name: "GitLab"
+
+plugins:
+  search: {}
+  glightbox: {}
+# with-pdf: {}
+
+nav:
+- "index.md"
+- "downloads.md"
+- "Projects":
+  - "SmartHHC":
+    - "smarthhc/index.md"
+    - "smarthhc/commands.md"
+  - "SmartWidgets":
+    - "smartwidgets/index.md"
+    - "smartwidgets/actionbar.md"
+    - "smartwidgets/spinbox.md"
+    - "smartwidgets/tablayout.md"
+- "MegaDrum":
+# - "megadrum/index.md"
+  - "megadrum/configuration-tips-and-hints.md"
+  - "megadrum/hihat-pedal-settings.md"
+  - "megadrum/menu.md"
+  - "megadrum/miscellaneous-settings.md"
+  - "megadrum/pad-settings.md"
+- "Quick Links": # link/fas
+  - "SFZ Format":           "https://sfzformat.github.io/"       # book/fas
+  - "Free SFZ Instruments": "https://github.com/sfzinstruments/" # download/fas
+  - "Linuxaudio.org":       "https://linuxaudio.org/"            # music/fas
+  - "LinuxMAO":             "https://linuxmao.org/"              # music/fas

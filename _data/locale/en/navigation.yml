@@ -1,8 +1,0 @@
-- label: "Projects"
-  type: "dropdown"
-  pages:
-  - label: "SmartHHC - Digital HiHat Controller"
-    url: "/smarthhc/"
-
- # - label: "SmartWidgets"
- #   url: "/smartwidgets/"
